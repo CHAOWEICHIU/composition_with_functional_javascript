@@ -1,9 +1,15 @@
 ## **Why Functional JavaScript?**
 
 > Before I tell you **why** you should use it, let's see how you can do math calculation by using javascript different way
+
+
 > Standard JavaScript
+
+
 > Object Oriented Javascript
-Functional Javascript(composition)
+
+
+> Functional Javascript(composition)
 
 ------------------------------------
 
