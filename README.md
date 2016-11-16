@@ -1,6 +1,6 @@
-## Functional composition in JavaScript
+> Why Functional composition in JavaScript?
 
-## Demo
+## Comparison DEMO
 
 > Standard JavaScript
 
