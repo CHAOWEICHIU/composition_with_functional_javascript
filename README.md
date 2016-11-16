@@ -77,7 +77,6 @@ let input = 5
   , doMath = compose(increase1, triple, double, decrease1)
   , output = doMath(5)
 
-console.log(output)
+console.log(output) // return 35
 ```
-
 
