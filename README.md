@@ -3,13 +3,13 @@
 > Before I tell you **why** you should use it, let's see how you can do math calculation by using javascript different way
 
 
-> Standard JavaScript
+> (1) Standard JavaScript
 
 
-> Object Oriented Javascript
+> (2) Object Oriented Javascript
 
 
-> Functional Javascript(composition)
+> (3) Functional Javascript(composition)
 
 ------------------------------------
 
