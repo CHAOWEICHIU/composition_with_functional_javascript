@@ -96,9 +96,8 @@ console.log(output) // return 35
 ```
 
 
-## Why?
+## Why and the benefit?
 
-If you are planning to make a rebust application that is relatively easier to scale, Functional Javascript is a way to do.
 
 > :thumbsup: Easy to reason about
 
