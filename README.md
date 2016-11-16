@@ -19,8 +19,6 @@ let step1  = increase1( input ) //   5 + 1 =  6
 console.log(output) // 35
 ```
 
--------------------------------------------------------
-
 
 > OOP Javascript 
 
@@ -62,7 +60,6 @@ let input = 5
 console.log(result) // 35
 ```
 
--------------------------------------------------------
 
 
 > Functional Javascript(composition)
