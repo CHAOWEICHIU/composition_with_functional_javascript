@@ -80,3 +80,60 @@ let input = 5
 console.log(output) // return 35
 ```
 
+
+## Why?
+
+If you are planning to make a rebust application that is relatively easier to scale, Functional Javascript is a way to do.
+
+> :thumbsup: Easy to reason about
+
+
+```javascript
+let double 	  = num => num * 2
+  , triple    = num => num * 3
+  , increase1 = num => num + 1
+  , decrease1 = num => num - 1
+
+let doMath = compose(increase1, triple, double, decrease1)
+console.log(doMath(1)) // 11 = ( 1 + 1 ) * 3 * 2 - 1
+```
+
+> :thumbsup: reusable component
+
+```javascript
+let double 	  = num => num * 2
+  , triple    = num => num * 3
+  , increase1 = num => num + 1
+  , decrease1 = num => num - 1
+
+let doMath = compose(triple, triple, double, decrease1)
+console.log(doMath(1)) // 17 = 1 * 3 * 3 * 2 - 1
+```
+
+> :thumbsup: easy to test
+
+```javascript
+const expect = require('chai').expect
+
+let double 	  = num => num * 2
+  , triple    = num => num * 3
+  , increase1 = num => num + 1
+  , decrease1 = num => num - 1
+
+describe('pure functions test', ()=>{
+	it('should double', ()=>{
+		expect(double(2)).to.equal(4)
+	})
+	it('should triple', ()=>{
+		expect(triple(2)).to.equal(6)
+	})
+	it('should increase1', ()=>{
+		expect(increase1(2)).to.equal(3)
+	})
+	it('should decrease1', ()=>{
+		expect(decrease1(2)).to.equal(1)
+	})
+})
+
+// easy to write test
+```
