@@ -99,7 +99,7 @@ console.log(output) // return 35
 ## Why and the benefit?
 
 
-> :thumbsup: Easy to reason about
+> :thumbsup: Easy To Reason About
 
 
 ```javascript
@@ -112,7 +112,7 @@ let doMath = compose(increase1, triple, double, decrease1)
 console.log(doMath(1)) // 11 = ( 1 + 1 ) * 3 * 2 - 1
 ```
 
-> :thumbsup: reusable component
+> :thumbsup: Reusable Small Component
 
 ```javascript
 let double 	  = num => num * 2
@@ -129,7 +129,7 @@ console.log(doMath(1)) // 17 = 1 * 3 * 3 * 2 - 1
 // (4) decrease 1
 ```
 
-> :thumbsup: easy to test
+> :thumbsup: Easy To Test
 
 ```javascript
 const expect = require('chai').expect
