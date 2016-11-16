@@ -1,5 +1,7 @@
 ## **Why Functional JavaScript?**
 
+### Before I tell you why you should use it, lets see how you can do math calculation by using javascript
+
 
 > Standard JavaScript
 
@@ -20,7 +22,7 @@ console.log(output) // 35
 ```
 
 
-> OOP Javascript 
+> Object Oriented Javascript
 
 
 ```javascript 
