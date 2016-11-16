@@ -4,8 +4,8 @@
 > Standard JavaScript
 
 ```javascript 
-let double = num => num * 2
-  , triple = num => num * 3
+let double    = num => num * 2
+  , triple    = num => num * 3
   , increase1 = num => num + 1
   , decrease1 = num => num - 1
 
@@ -48,6 +48,7 @@ let NumberBuilder = function(input) {
       }
   }
 }
+
 let input = 5
   , numberBuilder = new NumberBuilder(5)
   , result = numberBuilder
@@ -66,8 +67,8 @@ console.log(result) // 35
 
 
 ```javascript
-let double = num => num * 2
-  , triple = num => num * 3
+let double 	  = num => num * 2
+  , triple    = num => num * 3
   , increase1 = num => num + 1
   , decrease1 = num => num - 1
   , compose = (...funcs) => (value) => funcs.reduce((v,fn) => fn(v), value)
