@@ -1,6 +1,6 @@
 ## **Why Functional JavaScript?**
 
-> Before I tell you why you should use it, lets see how you can do math calculation by using javascript
+> Before I tell you **why** you should use it, let's see how you can do math calculation by using javascript in three different way
 
 
 
