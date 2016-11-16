@@ -158,7 +158,7 @@ describe('pure functions test', ()=>{
 ```
 
 
-[next??]()
+> [NEXT](https://github.com/CHAOWEICHIU/functional_javaScript_composition_2)
 
 ## About me
 
