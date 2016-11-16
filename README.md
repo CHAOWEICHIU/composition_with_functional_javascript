@@ -1,6 +1,5 @@
-> Why Functional composition in JavaScript?
+## **Why Functional JavaScript?**
 
-## Comparison DEMO
 
 > Standard JavaScript
 
