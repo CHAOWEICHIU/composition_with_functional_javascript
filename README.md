@@ -158,7 +158,43 @@ describe('pure functions test', ()=>{
 ```
 
 
-> If this is what you have been looking for, click **[HERE](https://github.com/CHAOWEICHIU/functional_javaScript_composition_2)** to learn more!
+## Extra Link
+
+**Explore More**
+
+> [functional-javascript-currying](https://github.com/CHAOWEICHIU/functional-javascript-currying)
+
+
+> [functional_javaScript_composition_1](https://github.com/CHAOWEICHIU/functional_javaScript_composition_1)
+
+
+> [functional_javaScript_composition_2](https://github.com/CHAOWEICHIU/functional_javaScript_composition_1)
+
+
+> [functional-javascript-purity](https://github.com/CHAOWEICHIU/functional-javascript-purity)
+
+
+**Usage**
+
+
+> [Custom Real World Functions](https://github.com/CHAOWEICHIU/ccw-custom-functions)
+
+```javascript
+decimalPlaces('.05')         // return 2
+toTitleCase('hoW aRe yOU')     // return 'How Are You'
+truncateString("how are you", 5) // return how a ...
+validZipcode('48326')        // return true
+// More ...
+```
+
+## My Work
+
+### [Food Recipes Application](https://github.com/CHAOWEICHIU/favorite-food-recipe)
+
+>It is an application where has all recipes around the world. You would be able to see what ingredient that you need, what steps that you need to take in order to make the dish.
+
+
+
 
 ## About me
 
@@ -187,24 +223,5 @@ and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
 
 ------------------------------------------
-
-
-## Extra Link
-
-> [Custom Real World Functions](https://github.com/CHAOWEICHIU/ccw-custom-functions)
-
-```javascript
-decimalPlaces('.05')             // return 2
-toTitleCase('hoW aRe yOU')       // return 'How Are You'
-truncateString("how are you", 5) // return how a ...
-validZipcode('48326')            // return true
-// More ...
-```
-
-## My Work
-
-### [Food Recipes Application](https://github.com/CHAOWEICHIU/favorite-food-recipe)
-
->It is an application where has all recipes around the world. You would be able to see what ingredient that you need, what steps that you need to take in order to make the dish.
 
 
